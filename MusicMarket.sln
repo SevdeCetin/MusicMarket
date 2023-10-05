@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6F7A0860-27FD-4FC4-8BED-BFB39F49BACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B3F2EF44-82C6-4DCC-AD64-C59A69334422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{91ED74C6-55AD-49C3-BDE8-EA1209970954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{4C62A2BA-A91D-406A-9AF6-4CC59842140F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Core", "MusicMarket.Core\MusicMarket.Core.csproj", "{1FE0E95B-1DB7-47C3-A71D-462312BEE83F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Data", "MusicMarket.Data\MusicMarket.Data.csproj", "{FB10C7D9-F07F-4E16-B740-C1D49F51A311}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.Services", "MusicMarket.Services\MusicMarket.Services.csproj", "{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicMarket.API", "MusicMarket.API\MusicMarket.API.csproj", "{EAED3433-D0E0-40DB-8B59-D80844098C78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A760444-C6A1-46D6-AAFA-6CD43D30CBC1}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE0E95B-1DB7-47C3-A71D-462312BEE83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE0E95B-1DB7-47C3-A71D-462312BEE83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE0E95B-1DB7-47C3-A71D-462312BEE83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE0E95B-1DB7-47C3-A71D-462312BEE83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB10C7D9-F07F-4E16-B740-C1D49F51A311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB10C7D9-F07F-4E16-B740-C1D49F51A311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB10C7D9-F07F-4E16-B740-C1D49F51A311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB10C7D9-F07F-4E16-B740-C1D49F51A311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAED3433-D0E0-40DB-8B59-D80844098C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAED3433-D0E0-40DB-8B59-D80844098C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAED3433-D0E0-40DB-8B59-D80844098C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAED3433-D0E0-40DB-8B59-D80844098C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FE0E95B-1DB7-47C3-A71D-462312BEE83F} = {6F7A0860-27FD-4FC4-8BED-BFB39F49BACB}
+		{FB10C7D9-F07F-4E16-B740-C1D49F51A311} = {B3F2EF44-82C6-4DCC-AD64-C59A69334422}
+		{62A8DA05-ABBD-42AB-A87C-96587CAFAEF7} = {91ED74C6-55AD-49C3-BDE8-EA1209970954}
+		{EAED3433-D0E0-40DB-8B59-D80844098C78} = {4C62A2BA-A91D-406A-9AF6-4CC59842140F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B9D667B-EB43-4644-8C65-7F4E2C07813C}
+	EndGlobalSection
+EndGlobal
